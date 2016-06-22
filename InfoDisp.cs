@@ -17,7 +17,7 @@ public class InfoDisp : MonoBehaviour {
 			pageNo = 1;
 		}
 		if (pageNo == 1) {
-			text.text = "How to play:\n\n\n-Use 1-4 to select a track part to place\n\n-Left Click to place";
+			text.text = "How to play:\n\n\n-Use the arrow keys to select your part\n-Left Click to place\n-0 to delete all placed tracks";
 		}
 		if (pageNo == 2) {
 			text.text = "Background:\n\nIn 1863, the first public NZ railway opened in\nCanterbury.While it was a broader track than what\n" +

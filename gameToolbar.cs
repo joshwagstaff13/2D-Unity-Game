@@ -9,6 +9,10 @@ public class gameToolbar : MonoBehaviour {
 	public Sprite tunnel;
 	public Sprite bridge;
 	public Sprite blank;
+	public Sprite turn1;
+	public Sprite turn2;
+	public Sprite turn3;
+	public Sprite turn4;
 
 	// Update is called once per frame
 	public void Update () {
@@ -26,6 +30,18 @@ public class gameToolbar : MonoBehaviour {
 		}
 		if (selection.blockSel == 4) {
 			img.sprite = bridge;
+		}
+		if (selection.blockSel == 5) {
+			img.sprite = turn1;
+		}
+		if (selection.blockSel == 6) {
+			img.sprite = turn2;
+		}
+		if (selection.blockSel == 7) {
+			img.sprite = turn3;
+		}
+		if (selection.blockSel == 8) {
+			img.sprite = turn4;
 		}
 	}
 }

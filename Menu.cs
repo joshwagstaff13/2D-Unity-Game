@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour {
-	public bool runtrain = false;
+	public bool runtrain;
 	
 	public void StartGame () {
 		SceneManager.LoadScene ("base");
@@ -21,7 +21,7 @@ public class Menu : MonoBehaviour {
 		SceneManager.LoadScene ("menuscene");
 	}
 
-	public void runTrain(){
+	/*public void runTrain(){
 		if (!runtrain) {
 			runtrain = true;
 			Debug.Log ("Run Train");
@@ -29,7 +29,7 @@ public class Menu : MonoBehaviour {
 			runtrain = false;
 			Debug.Log ("Stop Train");
 		}
-	}
+	}*/
 	public void winGame(){
 		SceneManager.LoadScene ("winScene");
 	}
